@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "start-storybook": "npx http-server storybook-static"
   },
   "dependencies": {
     "next": "latest",

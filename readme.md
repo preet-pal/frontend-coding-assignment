@@ -1,5 +1,7 @@
 # Hatsa code assignment
-Hello! To get a feeling for your current skills regarding our frontend stack, you've been requested to do this assignment. The assignment should take no longer than 1-2 hours to complete. Try to complete everything within this time, getting it to work first, then make it better if you have some time left.
+Hello! To get a feeling for your current skills regarding our frontend stack, you've been requested to do this assignment. If you came across this repository by chance, please see [the vacancy](https://hatsa.com/jobs/sr-frontend-engineer) first.
+
+The assignment should take no longer than 1-2 hours to complete. Try to complete everything within this time, getting it to work first, then make it better if you have some time left.
 
 ## Getting started
 1. Create a private repository on GitHub
@@ -41,4 +43,7 @@ The component should receive props to allow for different variants:
 
 The colors should change based on the button state (default, hover and active). To test this component, you can create a new page, or refer to the bonus objective.
 
-**Bonus**: create stories for the button component. [Storybook](https://storybook.js.org/docs/react/get-started/introduction) has been set up in the project already.  
+**Bonus**: create stories for the button component. [Storybook](https://storybook.js.org/docs/react/get-started/introduction) has been set up in the project already. Unfortunately, due to incompatible packages, the dev server of Storybook doesn't work. To run the production version, first run `yarn build-storybook` and then `yarn start-storybook` to have it available on http://localhost:8080.
+
+## Questions?
+For any questions or comments regarding the assignments (or the application process in general) you can contact us at development@hatsa.com.
