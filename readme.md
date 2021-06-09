@@ -40,6 +40,7 @@ The component should receive props to allow for different variants:
 - Color
 - Size
 - Regular (with background color) or outline (white background with a colored border)
+- An optional icon preceding the button text
 
 The colors should change based on the button state (default, hover and active). To test this component, you can create a new page, or refer to the bonus objective.
 
