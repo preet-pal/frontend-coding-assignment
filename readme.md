@@ -40,7 +40,7 @@ The component should receive props to allow for different variants:
 - Color - there are two colors to choose from at this time, but make it so that new colors could be added easily
 - Size
 - Regular (with background color) or outline (white background with a colored border)
-- An optional icon preceding the button text
+- An optional icon preceding the button text (the icon can be downloaded under "Download Assets" at the bottom right of the Sketch page)
 
 The colors should change based on the button state (default, hover and active). To test this component, you can create a new page, or refer to the bonus objective.
 
