@@ -13,21 +13,21 @@ The assignment should take no longer than 1-2 hours to complete. Try to complete
 The application can then be started with `yarn dev`. This starts the NextJS development server on http://localhost:3000.
 
 ## The assignments
-The assignments can be done in any order you like, but try to complete all of them. Use TypeScript features wherever applicable to indicate how experienced you are with it. 
+The assignments can be done in any order you like, but try to complete all of them. Use TypeScript features wherever applicable to indicate how experienced you are with it.
 
 In your application, for each assignment, write a short summary of how and why you've done things, and how long it took to solve. In case you haven't completed everything, try to describe how you would solve the problem if you had more time.
 
 ### API requests
 In `/search`, you'll find the boilerplate for a simple version of our product search. A function to fetch the results is provided, as well as a basic way to display the results. Implement two versions of this search:
 - Client side - fetch the data as the page is rendered in the browser
-- Server side - fetch the data before 
+- Server side - fetch the data before
 
 You can copy the provided file to implement both versions. Feel free to install any packages that you think help solve the problem.
 
 **Bonus**: improve the styling of the results list.
 
 ### Performance issues
-On `/profile` you can find a basic profile form. It seems to be a little slow to respond to input! 
+On `/profile` you can find a basic profile form. It seems to be a little slow to respond to input!
 
 Find out why this is the case and refactor the code to improve the responsiveness. For this you can edit the `profile.tsx` and `FormInput.tsx` files, but you may not remove the `wait(50)` statement which slows the rendering of the input field.
 
