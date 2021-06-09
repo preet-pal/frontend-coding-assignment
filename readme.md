@@ -34,10 +34,10 @@ Find out why this is the case and refactor the code to improve the responsivenes
 Explain how you found the issue and what you did to resolve it.
 
 ### Button component
-In `components/Button.tsx` you'll find a starting point for a button component. Implement the design of the button found [here](https://www.sketch.com/s/d9aab920-a4c4-40fc-bbb5-894053afd607/a/xr2p1M5#Inspector). Use [TailwindCSS](https://tailwindcss.com/) for the styling - it has been set up in the project already.
+In `components/Button.tsx` you'll find a starting point for a button component. Implement the design of the button found [here](https://www.sketch.com/s/d9aab920-a4c4-40fc-bbb5-894053afd607). Use [TailwindCSS](https://tailwindcss.com/) for the styling - it has been set up in the project already.
 
 The component should receive props to allow for different variants:
-- Color
+- Color - there are two colors to choose from at this time, but make it so that new colors could be added easily
 - Size
 - Regular (with background color) or outline (white background with a colored border)
 - An optional icon preceding the button text
