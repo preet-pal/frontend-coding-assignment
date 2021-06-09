@@ -13,12 +13,14 @@ The application can then be started with `yarn dev`. This starts the NextJS deve
 ## The assignments
 The assignments can be done in any order you like, but try to complete all of them. Use TypeScript features wherever applicable to indicate how experienced you are with it. 
 
+In your application, for each assignment, write a short summary of how and why you've done things, and how long it took to solve. In case you haven't completed everything, try to describe how you would solve the problem if you had more time.
+
 ### API requests
 In `/search`, you'll find the boilerplate for a simple version of our product search. A function to fetch the results is provided, as well as a basic way to display the results. Implement two versions of this search:
 - Client side - fetch the data as the page is rendered in the browser
 - Server side - fetch the data before 
 
-You can copy the provided file to implement both versions.
+You can copy the provided file to implement both versions. Feel free to install any packages that you think help solve the problem.
 
 **Bonus**: improve the styling of the results list.
 
